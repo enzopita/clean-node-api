@@ -1,12 +1,17 @@
 {
   "root": true,
   "extends": [
-    "airbnb-typescript/base"
+    "airbnb-typescript/base",
+    "prettier"
   ],
   "plugins": [
-    "import"
+    "import",
+    "prettier"
   ],
   "parserOptions": {
     "project": "tsconfig.json"
+  },
+  "rules": {
+    "prettier/prettier": "error"
   }
 }
